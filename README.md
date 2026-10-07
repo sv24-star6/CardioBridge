@@ -12,6 +12,7 @@ CardioBridge demonstrates a compact population-health genomics workflow spanning
 - Reactome annotation through UniProt cross-references.
 - Batched inference on one million resampled rows (computational test, not one million new participants).
 - Reproducible CAD PGS implementation using PGS012581 / PRS169_CAD from the PGS Catalog.
+- Clinical-utility evaluation framework comparing clinical risk, PGS, and clinical + PGS using discrimination, calibration, reclassification and decision-curve analysis.
 
 The strongest shared regional signal in the current colocalisation analysis is APOE. ANGPTL1 is prior-sensitive. IL6R's MR association is not supported by strong colocalisation under the single-signal model used here. These findings are exploratory, not validated causal mechanisms or treatment recommendations.
 
@@ -33,10 +34,11 @@ Install `requirements.txt` and follow the module documentation. Python scripts f
 - `genetics/run_pathways.py`: Reactome cross-reference annotation.
 - `genetics/verify_results.py`: source and numerical consistency checks.
 - `pgs/run_pgs.py`: published CAD polygenic-score acquisition, harmonisation and calculation.
+- `clinical_utility/evaluate_clinical_utility.py`: independent-cohort incremental-value and decision-curve evaluation framework.
 - `outputs/`, `genetics/outputs/`, `pgs/outputs/`: analysis outputs and provenance.
 
 ## Scope and limitations
 
-Downloaded raw data and caches are excluded. The analyses use public/de-identified or summary-level resources. CardioBridge does not create a new GWAS, link NHANES participants to genetic participants, or provide matched individual-level multi-omics. The current PGS component implements a published score but does not independently validate it in a genotype-plus-CAD cohort. The project does not establish clinical utility.
+Downloaded raw data and caches are excluded. The analyses use public/de-identified or summary-level resources. CardioBridge does not create a new GWAS, link NHANES participants to genetic participants, or provide matched individual-level multi-omics. The current PGS component implements a published score but does not independently validate it in a genotype-plus-CAD cohort. A clinical-utility evaluation framework is implemented, but its patient-level analysis remains pending an appropriate linked validation cohort. The project does not currently establish clinical utility.
 
 This is an independent portfolio project.
