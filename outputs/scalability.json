@@ -1,0 +1,1 @@
+{"rows":1000000,"batch_size":10000,"seconds":3.1256884049998916,"rows_per_second":319929.5228533935,"process_peak_RSS_MiB":160.87890625,"checksum":115861689.41131744,"source":"Resampled training predictor rows; not new participants","timing_scope":"Includes batch resampling and prediction; excludes model training and download","python":"3.12.14","threads":2}
