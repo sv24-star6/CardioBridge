@@ -1,0 +1,12 @@
+{
+  "pgs_id": "PGS012581",
+  "score_name": "PRS169_CAD",
+  "trait": "coronary artery disease",
+  "catalog_release_date": "2026-06-17",
+  "catalog_variant_count": 169,
+  "development_method": "Genome-wide significant SNPs; R2 < 0.01",
+  "effect_weight_type": "beta",
+  "source_publication": "Zheng J et al., Journal of Internal Medicine (2024)",
+  "published_reference_performance": "PGS Catalog reports HR 1.79 [1.72, 1.86] for high vs low tertile in PSS012270; this is not a CardioBridge result.",
+  "cardiobridge_validation_status": "Score implementation prepared; independent individual-level genotype/outcome validation not performed."
+}
