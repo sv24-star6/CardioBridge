@@ -39,4 +39,4 @@ Install `requirements.txt` and follow the module documentation. Python scripts f
 
 Downloaded raw data and caches are excluded. The analyses use public/de-identified or summary-level resources. CardioBridge does not create a new GWAS, link NHANES participants to genetic participants, or provide matched individual-level multi-omics. The current PGS component implements a published score but does not independently validate it in a genotype-plus-CAD cohort. The project does not establish clinical utility.
 
-This is an independent portfolio/research prototype and does not claim affiliation with the University of Cambridge or the source cohorts.
+This is an independent portfolio project.
