@@ -55,4 +55,4 @@ For the later genetic analyses, see CardioBridge_analysis_report.md.
 ## Sources
 CDC NHANES component files: DEMO, BMX, BPX and TRIGLY for 2013–2014, 2015–2016 and 2017–2018.
 
-These are secondary analyses of public de-identified data. Cite NHANES and relevant software in any manuscript. This repository is an independent portfolio prototype and does not claim Cambridge affiliation or clinical validation.
+These are secondary analyses of public de-identified data. Cite NHANES and relevant software in any manuscript. This repository is an independent portfolio prototype.
