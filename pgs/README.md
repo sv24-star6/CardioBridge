@@ -6,7 +6,7 @@ This extension demonstrates a reproducible **polygenic-score calculation workflo
 
 **PGS012581 / PRS169_CAD** predicts coronary artery disease. The PGS Catalog reports 169 variants, beta effect weights, and construction from genome-wide-significant SNPs with LD pruning at R² < 0.01. The Catalog released the score on 17 June 2026.
 
-The source publication is Zheng J et al., *Journal of Internal Medicine* (2024). The Catalog reports external UK Biobank evaluation across multiple ancestry groups. Those published performance results are reference information; they are **not CardioBridge validation results**.
+The source publication is Zheng J et al., *Journal of Internal Medicine* (2024). The Catalog reports external UK Biobank evaluation across multiple ancestry groups. 
 
 ## What this module does
 
