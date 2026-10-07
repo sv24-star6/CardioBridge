@@ -1,6 +1,3 @@
-"""One-million-row throughput benchmark using resampled public NHANES inputs.
-This is a computational stress test, NOT one million independent participants.
-"""
 from pathlib import Path
 import json,time,resource,platform
 import numpy as np,pandas as pd
