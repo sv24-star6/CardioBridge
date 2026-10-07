@@ -56,7 +56,7 @@ Install `requirements.txt` and follow the module documentation. Python scripts f
 ### Population-scale computational benchmark
 ![One-million-row scalability benchmark](figures/05_scalability.svg)
 
-These figures are generated from the recorded CardioBridge outputs. No clinical-utility curve is shown because an appropriate linked individual-level genotype + CAD validation cohort has not yet been analysed.
+These figures are generated from the saved CardioBridge outputs. No clinical-utility curve is shown because an appropriate linked individual-level genotype + CAD validation cohort has not yet been analysed.
 
 ## Scope and limitations
 
