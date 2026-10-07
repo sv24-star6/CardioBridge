@@ -1,0 +1,9 @@
+{
+  "module": "clinical_utility",
+  "status": "framework_complete_validation_pending",
+  "comparisons": ["clinical", "PGS", "clinical_plus_PGS"],
+  "metrics": ["AUC", "Brier score", "calibration", "delta AUC", "categorical NRI", "decision-curve net benefit"],
+  "independent_linked_validation_cohort_available": false,
+  "clinical_utility_established": false,
+  "note": "No patient-level clinical-utility result has been generated without an appropriate linked genotype/phenotype cohort."
+}
