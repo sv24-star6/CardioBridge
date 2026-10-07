@@ -37,6 +37,27 @@ Install `requirements.txt` and follow the module documentation. Python scripts f
 - `clinical_utility/evaluate_clinical_utility.py`: independent-cohort incremental-value and decision-curve evaluation framework.
 - `outputs/`, `genetics/outputs/`, `pgs/outputs/`: analysis outputs and provenance.
 
+
+
+## Key figures
+
+### Temporal holdout prediction
+![Temporal holdout triglyceride model performance](figures/01_model_performance.svg)
+
+### Exploratory cis-pQTL Mendelian randomization
+![MR forest plot](figures/02_mr_forest.svg)
+
+### Colocalisation sensitivity
+![Colocalisation sensitivity to the shared-causal prior](figures/03_colocalisation_sensitivity.svg)
+
+### Regional variant-overlap QC
+![Colocalisation regional overlap QC](figures/04_colocalisation_qc.svg)
+
+### Population-scale computational benchmark
+![One-million-row scalability benchmark](figures/05_scalability.svg)
+
+These figures are generated from the recorded CardioBridge outputs. No clinical-utility curve is shown because an appropriate linked individual-level genotype + CAD validation cohort has not yet been analysed.
+
 ## Scope and limitations
 
 Downloaded raw data and caches are excluded. The analyses use public/de-identified or summary-level resources. CardioBridge does not create a new GWAS, link NHANES participants to genetic participants, or provide matched individual-level multi-omics. The current PGS component implements a published score but does not independently validate it in a genotype-plus-CAD cohort. A clinical-utility evaluation framework is implemented, but its patient-level analysis remains pending an appropriate linked validation cohort. The project does not currently establish clinical utility.
